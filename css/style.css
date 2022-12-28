@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.footer {
+  display: flex;
+  flex: 1 0 100%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1em 1em;
+  text-align: center;
+}
+.footer__text {
+  color: hsl(228deg, 45%, 44%);
+  font-size: 0.8rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 250px;
+}
+.main .image {
+  min-height: 250px;
+  background-image: url(../images/image-product-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main .content {
+  padding: 2em;
+}
+.main .content__text {
+  color: hsl(228deg, 12%, 48%);
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  letter-spacing: 3px;
+}
+.main .content__heading {
+  font-family: "Fraunces", serif;
+  padding-bottom: 0.6em;
+}
+.main .content__descrip {
+  font-size: 1rem;
+  color: hsl(228deg, 12%, 48%);
+  line-height: 150%;
+}
+.main .content__prices {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main .content__prices--new {
+  flex: 1 1 auto;
+  padding: 0.7em 0;
+  font-size: 2em;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(158deg, 36%, 37%);
+}
+.main .content__prices--old {
+  flex: 1 1 auto;
+  padding: 1em 1em 1em 1em;
+  color: hsl(228deg, 12%, 48%);
+  text-decoration: line-through;
+}
+.main .content__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0.6em;
+  background-color: hsl(158deg, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+.main .content__btn .icon {
+  padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    max-width: 700px;
+    flex-direction: row;
+  }
+  .main .image {
+    min-width: 50%;
+    background-image: url(../images/image-product-desktop.jpg);
+  }
+  .main .content {
+    padding: 3em;
+  }
+  .main .content__heading {
+    font-size: 2.7rem;
+  }
+  .main .content__descrip {
+    line-height: 150%;
+    font-size: 1.1rem;
+  }
+  .main .content__prices--new {
+    font-size: 2.5em;
+  }
+  .main .content__prices--old {
+    font-size: 1.1em;
+  }
+  .main .content__btn {
+    font-size: 1.1em;
+  }
+  .main .content__btn .icon {
+    width: 20px;
+    height: 17px;
+    margin-right: 0.5em;
+  }
+}/*# sourceMappingURL=style.css.map */
