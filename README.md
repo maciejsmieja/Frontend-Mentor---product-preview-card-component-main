@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/maciejsmieja/)
-- Live Site URL: [GitHub pages live](https://maciejsmieja.github.io/)
+- Solution URL: [GitHub](https://github.com/maciejsmieja/Frontend-Mentor---product-preview-card-component-main)
+- Live Site URL: [GitHub pages live](https://maciejsmieja.github.io/Frontend-Mentor---product-preview-card-component-main/)
 
 ## My process
 
